@@ -1,0 +1,52 @@
+﻿@model DateTime
+
+@if (Model.Year < DateTime.Now.Year)
+{
+    <i>@Model.ToString("dd MMM yyyy")</i>
+
+}
+else if (Model.Month < DateTime.Now.Month)
+{
+    if (Model.Month == DateTime.Now.Month - 1)
+    {
+        <i>@(DateTime.Now.Month - Model.Month) month ago</i>
+    }
+    else
+    {
+        <i>@(DateTime.Now.Month - Model.Month) months ago</i>
+    }
+
+}
+else if (Model.Day < DateTime.Now.Day)
+{
+    if (Model.Day == DateTime.Now.Day - 1)
+    {
+        <i>yesterday at @Model.ToString("t")</i>
+    }
+    else
+    {
+        <i> @(DateTime.Now.Day - Model.Day) days ago</i>
+    }
+}
+else if (Model.Hour < DateTime.Now.Hour)
+{
+    if (Model.Hour == DateTime.Now.Hour - 1)
+    {
+        <i> @(DateTime.Now.Hour - Model.Hour) hour ago</i>
+    }
+    else
+    {
+        <i> @Model.Hour hours ago</i>
+    }
+}
+else if (Model.Minute < DateTime.Now.Minute)
+{
+    if (Model.Minute == DateTime.Now.Minute - 1)
+    {
+        <i> @(DateTime.Now.Minute - Model.Minute) minute ago</i>
+    }
+    else
+    {
+        <i> @(DateTime.Now.Minute - Model.Minute) minutes ago</i>
+    }
+}

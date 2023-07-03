@@ -1,0 +1,12 @@
+﻿@model IEnumerable<FA.JustBlog.Models.Models.Tag>
+
+<section>
+    <span>
+        <strong><i>Tag: </i></strong>
+        
+    </span>
+    @foreach (var item in Model)
+    {
+        <a asp-action="GetListPostsByTagName" asp-controller="Post" asp-route-name="@item.Name">@item.Name</a>
+    }
+</section>

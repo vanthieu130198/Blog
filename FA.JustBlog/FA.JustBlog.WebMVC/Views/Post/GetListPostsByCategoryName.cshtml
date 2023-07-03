@@ -1,0 +1,14 @@
+﻿@model IEnumerable<FA.JustBlog.Models.Models.Post>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_DetailLayout";
+}
+<h1>@ViewBag.CategoryName</h1>
+@if(Model.Any()){
+<partial name="~/Views/Shared/Components/_ListPostPartial.cshtml" />
+}
+else{
+    <p>Updating ...!</p>
+}
+

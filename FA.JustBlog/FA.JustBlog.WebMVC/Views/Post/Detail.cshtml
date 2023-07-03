@@ -1,0 +1,47 @@
+﻿@model FA.JustBlog.Models.Models.Post
+
+@{
+    ViewData["Title"] = "Post Detail";
+    Layout = "_DetailLayout";
+}
+<h1>@Model.Title</h1>
+<p>Posted on @Model.PublishDate with views - @Model.ViewCount</p>
+<img src="@Model.ImageUrl" />
+<p>@Model.PostContent</p>
+<section>
+    <p><strong>Comments:</strong></p>
+    <div id="listCmts">
+        @foreach (var cmt in Model.Comments)
+        {
+            <span><strong>@cmt.Name</strong>: @cmt.CommentText - lúc: @cmt.CommentTime</span><br />
+        }
+    </div>
+</section>
+<section>
+    <textarea id="valueCmt"></textarea><br />
+    <button id="addCmt" class="btn btn-light">Add Comment</button>
+</section>
+@section Scripts{
+    @*Submit cmt Ajax*@
+<script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                let cmt = $("#valueCmt").val();
+                let id = "@Model.PostId";
+                $.post("/Home/AddComment",
+                    {
+                        comment: {
+                            content: cmt,
+                            postId: id
+                        }
+                    },
+                    function (data) {
+                         if (data.success) {
+                             $("#listCmts").append("<span><strong>Anonymous</strong>: " + data.cmt + " - lúc: @DateTime.Now</span><br />");
+                             $("#valueCmt").val("");
+                    }
+                    });
+            });
+        });
+</script>
+}

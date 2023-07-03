@@ -1,0 +1,265 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FA.JustBlog.WebMVC
+build_property.RootNamespace = FA.JustBlog.WebMVC
+build_property.ProjectDir = /Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2F0ZWdvcmllcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2F0ZWdvcmllcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/Categories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2F0ZWdvcmllcy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2F0ZWdvcmllcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2F0ZWdvcmllcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/CommentAdmin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ29tbWVudEFkbWluL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/CommentAdmin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ29tbWVudEFkbWluL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/CommentAdmin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ29tbWVudEFkbWluL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/CommentAdmin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ29tbWVudEFkbWluL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/CommentAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ29tbWVudEFkbWluL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/HomeAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvSG9tZUFkbWluL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/HomeAdmin/IndexGrid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvSG9tZUFkbWluL0luZGV4R3JpZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/PostAdmin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUG9zdEFkbWluL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/PostAdmin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUG9zdEFkbWluL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/PostAdmin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUG9zdEFkbWluL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/PostAdmin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUG9zdEFkbWluL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/PostAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUG9zdEFkbWluL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/PostAdmin/LatestPosts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUG9zdEFkbWluL0xhdGVzdFBvc3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/PostAdmin/MostInterestingPosts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUG9zdEFkbWluL01vc3RJbnRlcmVzdGluZ1Bvc3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/PostAdmin/MostViewedPosts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUG9zdEFkbWluL01vc3RWaWV3ZWRQb3N0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/PostAdmin/PublishedPosts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUG9zdEFkbWluL1B1Ymxpc2hlZFBvc3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/PostAdmin/UnPublishedPosts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUG9zdEFkbWluL1VuUHVibGlzaGVkUG9zdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/Shared/MvcGrid/_Grid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL012Y0dyaWQvX0dyaWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/Shared/MvcGrid/_Pager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL012Y0dyaWQvX1BhZ2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/Shared/_FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL19Gb290ZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL19MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/Shared/_ListPostPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL19MaXN0UG9zdFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/Shared/_NarBarAdminPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL19OYXJCYXJBZG1pblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/Shared/_SideBarAdminPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL19TaWRlQmFyQWRtaW5QYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/Tags/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVGFncy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/Tags/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVGFncy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/Tags/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVGFncy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/Tags/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVGFncy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/Tags/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVGFncy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Views/Post/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9EZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Views/Post/GetListPostsByCategoryName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9HZXRMaXN0UG9zdHNCeUNhdGVnb3J5TmFtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Views/Post/GetListPostsByTagName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9HZXRMaXN0UG9zdHNCeVRhZ05hbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Views/Post/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Views/Shared/Components/About/AboutIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQWJvdXQvQWJvdXRJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Views/Shared/Components/DropdownListCategories/DropdownListCategories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvRHJvcGRvd25MaXN0Q2F0ZWdvcmllcy9Ecm9wZG93bkxpc3RDYXRlZ29yaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Views/Shared/Components/LastestPosts/LastestPosts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvTGFzdGVzdFBvc3RzL0xhc3Rlc3RQb3N0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Views/Shared/Components/MostViewedPosts/MostViewedPosts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvTW9zdFZpZXdlZFBvc3RzL01vc3RWaWV3ZWRQb3N0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Views/Shared/Components/Tag/ListTags.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvVGFnL0xpc3RUYWdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Views/Shared/Components/_ListPostPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0xpc3RQb3N0UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Views/Shared/DisplayTemplates/DateTime.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Rpc3BsYXlUZW1wbGF0ZXMvRGF0ZVRpbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Views/Shared/_DetailLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19EZXRhaWxMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Views/Shared/_FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Gb290ZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Views/Shared/_HeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19IZWFkZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Views/Shared/_NavPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19OYXZQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/wwwroot/NoneFactors/Views/Shared/MvcGrid/_Grid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdC9Ob25lRmFjdG9ycy9WaWV3cy9TaGFyZWQvTXZjR3JpZC9fR3JpZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thieungo/Documents/code/JustBlog__Net07/FA.JustBlog/FA.JustBlog.WebMVC/wwwroot/NoneFactors/Views/Shared/MvcGrid/_Pager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdC9Ob25lRmFjdG9ycy9WaWV3cy9TaGFyZWQvTXZjR3JpZC9fUGFnZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

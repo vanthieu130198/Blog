@@ -1,0 +1,126 @@
+﻿@{
+    ViewData["Title"] = "Home Admin";
+    Layout = "_LayoutAdmin";
+}
+<h1>Menu</h1>
+<ul>
+    <li><a asp-action="LatestPosts" asp-controller="PostAdmin" asp-area="Admin">1. Latest Posts</a></li>
+    <li><a asp-action="MostInterestingPosts" asp-controller="PostAdmin" asp-area="Admin">2. Most Interesting Posts</a></li>
+    <li><a asp-action="MostViewedPosts" asp-controller="PostAdmin" asp-area="Admin">3. Most Viewed Posts</a></li>
+    <li><a asp-action="PublishedPosts" asp-controller="PostAdmin" asp-area="Admin">4. Published Posts</a></li>
+    <li><a asp-action="UnPublishedPosts" asp-controller="PostAdmin" asp-area="Admin">5. Un-Published Posts</a></li>
+</ul>
+@*@model IEnumerable<FA.JustBlog.Models.Models.Post>
+
+    @{
+        ViewData["Title"] = "Index";
+    }
+
+    <h1>Index</h1>
+
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ShortDescription)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ImageUrl)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PostContent)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UrlSlug)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Published)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PublishDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ViewCount)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.RateCount)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Totalrate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Category)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.IsDeleted)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.InsertAt)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UpdateAt)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ShortDescription)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ImageUrl)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PostContent)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UrlSlug)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Published)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PublishDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ViewCount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RateCount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Totalrate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Category.CategoryId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IsDeleted)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.InsertAt)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UpdateAt)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.PostId">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.PostId">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.PostId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>*@

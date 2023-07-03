@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Admin";
+    Layout = "_LayoutAdmin";
+}
+@*<h1>Menu</h1>
+    <ul>
+        <li><a asp-action="LatestPosts" asp-controller="PostAdmin" asp-area="Admin">1. Latest Posts</a></li>
+        <li><a asp-action="MostInterestingPosts" asp-controller="PostAdmin" asp-area="Admin">2. Most Interesting Posts</a></li>
+        <li><a asp-action="MostViewedPosts" asp-controller="PostAdmin" asp-area="Admin">3. Most Viewed Posts</a></li>
+        <li><a asp-action="PublishedPosts" asp-controller="PostAdmin" asp-area="Admin">4. Published Posts</a></li>
+        <li><a asp-action="UnPublishedPosts" asp-controller="PostAdmin" asp-area="Admin">5. Un-Published Posts</a></li>
+    </ul>*@
+
+@Html.AjaxGrid(Url.Action("IndexGrid"), new { id = "my-ajax-grid" })

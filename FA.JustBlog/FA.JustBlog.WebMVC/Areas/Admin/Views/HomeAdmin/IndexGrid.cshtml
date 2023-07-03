@@ -1,0 +1,58 @@
+﻿@model IQueryable<FA.JustBlog.Models.Models.Post>
+@(Html
+    .Grid(Model)
+    .Build(columns =>
+    {
+        columns.Add(model => model.Title).Titled("Title").Filterable(false);
+        columns.Add(model => model.ShortDescription).Titled("Short Description");
+        columns.Add(model => model.Published).Titled("Published");
+
+        columns.Add(model => model.PublishDate).Titled("Publish Date");
+        columns.Add(model => model.ViewCount).Titled("Views");
+        columns.Add(model => model.Totalrate).Titled("Total Rate");
+        columns.Add(model => Html.Raw($"<a class='btn btn-primary' href='PostAdmin/Edit/{@model.PostId}'>Edit</a>"));
+        columns.Add(model => Html.Raw($"<a class='btn btn-info' href='PostAdmin/Details/{@model.PostId}'>Details</a>"));
+        columns.Add(model => Html.Raw($"<a class='btn btn-danger' href='PostAdmin/DeleteConfirm/{@model.PostId}'>Delete</a>"));
+    })
+.Empty("No data found")
+    .Id("my-ajax-grid")
+    .Pageable(pager =>
+    {
+        pager.PagesToDisplay = 2;
+        pager.RowsPerPage = 2;
+    })
+    .Filterable()
+    .Sortable()
+)
+@section Scripts{
+    @*Submit Claim Ajax*@
+    <script>
+        $(".btn-danger").on("click", function (e) {
+            e.preventDefault();
+            let id = $(this).attr("id")
+            swal({
+                title: "Are you sure to delete this blog?",
+                text: "This Action will delete",
+                icon: "warning",
+                buttons: true,
+                dangerMode: true
+            }).then((willSubmit) => {
+                if (willSubmit) {
+                    $.ajax({
+                        type: "POST",
+                        data: { id: id },
+                        url: "/PostAdmin/Delete",
+                        success: function (data) {
+                            if (data.success) {
+                                toastr["success"](data.message);
+                            }
+                            else {
+                                toastr.error(data.message);
+                            }
+                        }
+                    });
+                }
+            });
+        })
+    </script>
+}

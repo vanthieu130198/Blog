@@ -1,0 +1,10 @@
+﻿@model IEnumerable<FA.JustBlog.Models.Models.Post>
+
+@foreach (var item in Model)
+{ <hr />
+        <section>
+            <a asp-area="Admin" asp-action="Details" asp-controller="PostAdmin" asp-route-id="@item.PostId"><strong>@item.Title</strong></a>
+            <p style="font-size:15px; margin:10px 0px">   Posted <strong>@Html.DisplayFor(a => item.PublishDate)</strong>  with rate <strong>@item.RateCount</strong>  by <strong>@item.ViewCount</strong> view(s)</p>
+            <p>@item.ShortDescription</p>
+        </section>
+}
